@@ -1,0 +1,10 @@
+# Root .gitignore
+node_modules/
+.env
+.env.local
+dist/
+.DS_Store
+
+# Backend temp audio files
+backend/src/temp/*
+!backend/src/temp/.gitkeep
